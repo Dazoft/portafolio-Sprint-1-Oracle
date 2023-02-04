@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<npm install sweetalert2></npm>   
+<head>
+  
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desencriptador Dazoft</title>
+    <link rel="stylesheet" href="./style.css">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap"
+      rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap" rel="stylesheet">
+    <script
+    type="text/javascript"  
+    src="./script.js"></script>
+<!-- Agregar libreria sweet alert -->
+
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.1/dist/sweetalert2.all.min.js"></script>
+    <script
+    type="text/javascript"  
+    src="./sweetalert2.all.min.js"></script>
+
+</head>
+<body>
+    <main class="container">
+        <header>
+            <img class="logo" src="./imagenes/alura challenges logo.png" alt="logo arula">
+            <p id="sprint1">Sprint 1</p>
+            <h2 class="titulo">Encriptador de texto </h2>
+        </header>
+        <div class="left">
+            <textarea class="text-input" id="inputTexto"cols="30" rows="12" placeholder="AREA DE TEXTO: Ingresa el texto que quieres encriptar/desencriptar."></textarea>
+        </div>
+        <div class="right">
+            <img id="imgDer"src="./imagenes/logo dazoft.jpg" alt="logo">
+            <h3 id="ningun-mensaje">Copia tu mensaje para desencriptarlo</h3>
+            <textarea name="name" cols="20" rows="09" id="text-mensaje" placeholder="Aquí aparecerá tu mensaje encriptado/desencriptado."></textarea>
+            <button type="button"id="btn-copiar" onclick="copiar()">Copiar</button>
+        </div>
+        <div class="left-button">
+            <p id="solo-letras">&#9888 Sólo letras minúsculas y sin acento</p>
+            <button type="button"id="btn-encriptar" onclick="encriptar()">Encriptar</button>
+            <button type="button"id="btn-desencriptar" onclick="desencriptar()">Desencriptar</button>
+        </div>
+        
+    </main>
+    
+</body>
+</html>
